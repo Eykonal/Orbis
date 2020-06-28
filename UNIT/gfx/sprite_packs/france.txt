@@ -1,0 +1,119 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          FRANCE                                            #####
+#####                                                                                            #####
+######################################################################################################
+
+ORBIS_FRA_pack = {
+
+	country_trigger = {
+		tag = FRA
+	}
+
+	sprite_infantry = {
+		0 = FRA_ORBIS_INFANTRY_1
+		1 = FRA_ORBIS_INFANTRY_2
+		2 = FRA_ORBIS_INFANTRY_3
+		3 = FRA_ORBIS_INFANTRY_4
+	}
+}
+
+ORBIS_BUR_pack = {
+
+	country_trigger = {
+		tag = BUR
+	}
+
+	sprite_infantry = {
+		0 = BUR_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_ALE_pack = {
+
+	country_trigger = {
+		tag = ALE
+	}
+
+	sprite_infantry = {
+		0 = ALE_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_BAR_pack = {
+
+	country_trigger = {
+		tag = BAR
+	}
+
+	sprite_infantry = {
+		0 = BAR_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_CHP_pack = {
+
+	country_trigger = {
+		tag = CHP
+	}
+
+	sprite_infantry = {
+		0 = CHP_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_DAU_pack = {
+
+	country_trigger = {
+		tag = DAU
+	}
+
+	sprite_infantry = {
+		0 = DAU_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_GUY_pack = {
+
+	country_trigger = {
+		tag = GUY
+	}
+
+	sprite_infantry = {
+		0 = GUY_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_NEV_pack = {
+
+	country_trigger = {
+		tag = NEV
+	}
+
+	sprite_infantry = {
+		0 = NEV_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_PIC_pack = {
+
+	country_trigger = {
+		tag = PIC
+	}
+
+	sprite_infantry = {
+		0 = PIC_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_TOU_pack = {
+
+	country_trigger = {
+		tag = TOU
+	}
+
+	sprite_infantry = {
+		0 = TOU_ORBIS_INFANTRY_1
+	}
+}

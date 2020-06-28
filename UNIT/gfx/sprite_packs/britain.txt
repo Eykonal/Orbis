@@ -1,0 +1,44 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          BRITAIN                                           #####
+#####                                                                                            #####
+######################################################################################################
+
+ORBIS_ENG_pack = {
+
+	country_trigger = {
+		tag = ENG
+	}
+
+	sprite_infantry = {
+		0 = ENG_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_GBR_pack = {
+
+	country_trigger = {
+		tag = GBR
+	}
+
+	sprite_infantry = {
+		0 = GBR_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_UK_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = GBR
+			tag = ENG
+		}
+	}
+
+	sprite_infantry = {
+		1 = GBR_ORBIS_INFANTRY_2
+		2 = GBR_ORBIS_INFANTRY_3
+		3 = GBR_ORBIS_INFANTRY_4
+	}
+}

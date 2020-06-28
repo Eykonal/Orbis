@@ -1,0 +1,113 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          LOWLANDS                                          #####
+#####                                                                                            #####
+######################################################################################################
+
+ORBIS_HOL_pack = {
+
+	country_trigger = {
+		tag = HOL
+	}
+
+	sprite_infantry = {
+		0 = HOL_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_BRB_pack = {
+
+	country_trigger = {
+		tag = BRB
+	}
+
+	sprite_infantry = {
+		0 = BRB_ORBIS_INFANTRY_1
+		1 = BRB_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_FLA_pack = {
+
+	country_trigger = {
+		tag = FLA
+	}
+
+	sprite_infantry = {
+		0 = FLA_ORBIS_INFANTRY_1
+		1 = FLA_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_FRI_pack = {
+
+	country_trigger = {
+		tag = FRI
+	}
+
+	sprite_infantry = {
+		0 = FRI_ORBIS_INFANTRY_1
+		1 = FRI_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_GEL_pack = {
+
+	country_trigger = {
+		tag = GEL
+	}
+
+	sprite_infantry = {
+		0 = GEL_ORBIS_INFANTRY_1
+		1 = GEL_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_HAI_pack = {
+
+	country_trigger = {
+		tag = HAI
+	}
+
+	sprite_infantry = {
+		0 = HAI_ORBIS_INFANTRY_1
+		1 = HAI_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_LIE_pack = {
+
+	country_trigger = {
+		tag = LIE
+	}
+
+	sprite_infantry = {
+		0 = LIE_ORBIS_INFANTRY_1
+		1 = LIE_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_LUX_pack = {
+
+	country_trigger = {
+		tag = LUX
+	}
+
+	sprite_infantry = {
+		0 = LUX_ORBIS_INFANTRY_1
+		1 = LUX_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_UTR_pack = {
+
+	country_trigger = {
+		tag = UTR
+	}
+
+	sprite_infantry = {
+		0 = UTR_ORBIS_INFANTRY_1
+		1 = UTR_ORBIS_INFANTRY_2
+	}
+}

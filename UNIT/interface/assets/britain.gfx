@@ -1,0 +1,118 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          BRITAIN                                           #####
+#####                                                                                            #####
+######################################################################################################
+
+objectTypes = {
+	
+	################################
+	##          LEVEL 1           ##
+	################################
+	
+	pdxmesh = {
+		name = "ENG_ORBIS_MESH_INFANTRY_1"
+		file = "gfx/models/units/Britain/Tier1/ENG_01.mesh"
+		
+		animation = { id = "attack"			type = "polearm_twohanded_attack_animation" }
+		animation = { id = "idle"			type = "polearm_twohanded_idle_animation" }
+		animation = { id = "walk"			type = "hwarup_polearm_twohanded_armor_moving_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"		type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }
+		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_retreat"	type = "cavalry_rider_moving_animation" }
+		
+		scale = 0.5
+	}
+	
+	pdxmesh = {
+		name = "GBR_ORBIS_MESH_INFANTRY_1"
+		file = "gfx/models/units/Britain/Tier1/GBR_01.mesh"
+		
+		animation = { id = "attack"			type = "polearm_twohanded_attack_animation" }
+		animation = { id = "idle"			type = "polearm_twohanded_idle_animation" }
+		animation = { id = "walk"			type = "hwarup_polearm_twohanded_armor_moving_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"		type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }
+		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_retreat"	type = "cavalry_rider_moving_animation" }
+		
+		scale = 0.5
+	}
+	
+	################################
+	##          LEVEL 2           ##
+	################################
+	
+	pdxmesh = {
+		name = "GBR_ORBIS_MESH_INFANTRY_2"
+		file = "gfx/models/units/Britain/Tier2/GBR_02.mesh"
+
+		animation = { id = "attack"				type = "rifleman_attack_animation" }
+		animation = { id = "idle"				type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"				type = "musketeer_02_moving_animation" }
+		animation = { id = "death"				type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "marnoup_cavalry_rider_noarmor_attack_animation" }
+		animation = { id = "horse_idle"			type = "marnoup_cavalry_rider_noarmor_idle_animation" }
+		animation = { id = "horse_walk"			type = "marnoup_cavalry_rider_noarmor_moving_animation" }
+		animation = { id = "horse_death"		type = "marnoup_cavalry_rider_noarmor_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		scale = 0.5
+	}
+	
+	################################
+	##          LEVEL 3           ##
+	################################
+	
+	pdxmesh = {
+		name = "GBR_ORBIS_MESH_INFANTRY_3"
+		file = "gfx/models/units/Britain/Tier3/GBR_03.mesh"
+
+		animation = { id = "attack"				type = "rifleman_attack_animation" }
+		animation = { id = "idle"				type = "rifleman_idle_animation" }
+		animation = { id = "walk"				type = "rifleman_moving_animation" }
+		animation = { id = "death"				type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "marnoup_cavalry_rider_noarmor_attack_animation" }
+		animation = { id = "horse_idle"			type = "marnoup_cavalry_rider_noarmor_idle_animation" }
+		animation = { id = "horse_walk"			type = "marnoup_cavalry_rider_noarmor_moving_animation" }
+		animation = { id = "horse_death"		type = "marnoup_cavalry_rider_noarmor_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		scale = 0.5
+	}
+	
+	################################
+	##          LEVEL 4           ##
+	################################
+	
+	pdxmesh = {
+		name = "GBR_ORBIS_MESH_INFANTRY_4"
+		file = "gfx/models/units/Britain/Tier4/GBR_04.mesh"
+
+		animation = { id = "attack"				type = "rifleman_attack_animation" }
+		animation = { id = "idle"				type = "rifleman_idle_animation" }
+		animation = { id = "walk"				type = "rifleman_moving_animation" }
+		animation = { id = "death"				type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "marnoup_cavalry_rider_noarmor_attack_animation" }
+		animation = { id = "horse_idle"			type = "marnoup_cavalry_rider_noarmor_idle_animation" }
+		animation = { id = "horse_walk"			type = "marnoup_cavalry_rider_noarmor_moving_animation" }
+		animation = { id = "horse_death"		type = "marnoup_cavalry_rider_noarmor_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		scale = 0.5
+	}
+}

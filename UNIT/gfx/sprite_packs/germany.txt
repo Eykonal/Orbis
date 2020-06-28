@@ -1,0 +1,258 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          GERMANY                                           #####
+#####                                                                                            #####
+######################################################################################################
+
+ORBIS_PRU_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = PRU
+			tag = GER
+		}
+	}
+
+	sprite_infantry = {
+		0 = PRU_ORBIS_INFANTRY_1
+		1 = PRU_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_HAB_pack = {
+
+	country_trigger = {
+		tag = HAB
+	}
+
+	sprite_infantry = {
+		0 = HAB_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_AUG_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = AUG
+			tag = MEM
+			tag = RVA
+			tag = SLZ
+			tag = REG
+			tag = KNZ
+			tag = PSS
+			tag = TYR
+			tag = TNT
+		}
+	}
+
+	sprite_infantry = {
+		0 = AUG_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_WUR_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = WUR
+			tag = BAD
+			tag = HES
+			tag = MUN
+			tag = BRU
+			tag = MBZ
+			tag = SHL
+		}
+	}
+
+	sprite_infantry = {
+		0 = WUR_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_WBG_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = WBG
+			tag = ANS
+			tag = ALS
+			tag = LOR
+			tag = KLE
+			tag = HAN
+			tag = BRG
+		}
+	}
+
+	sprite_infantry = {
+		0 = WUR_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_FRN_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = FRN
+			tag = AAC
+			tag = NSA
+			tag = MAG
+			tag = ANH
+			tag = BYT
+			tag = GOS
+		}
+	}
+
+	sprite_infantry = {
+		0 = WUR_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_HAM_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = HAM
+			tag = BRE
+			tag = HSA
+			tag = LUN
+			tag = LAU
+			tag = VER
+			tag = OLD
+			tag = SHL
+		}
+	}
+
+	sprite_infantry = {
+		0 = HAM_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_POM_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = POM
+			tag = DTT
+			tag = MKL
+			tag = EFR
+			tag = TRI
+			tag = MLH
+			tag = ROT
+		}
+	}
+
+	sprite_infantry = {
+		0 = POM_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_BRU_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = BRU
+			tag = MUN
+			tag = OLD
+			tag = EFR
+		}
+	}
+
+	sprite_infantry = {
+		1 = BRU_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_LUN_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = LUN
+			tag = ALS
+			tag = DTT
+		}
+	}
+
+	sprite_infantry = {
+		1 = LUN_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_HAM_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = HAM
+			tag = LAU
+			tag = BRE
+			tag = VER
+		}
+	}
+
+	sprite_infantry = {
+		1 = HAM_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_MKL_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = MKL
+			tag = SHL
+			tag = MAG
+		}
+	}
+
+	sprite_infantry = {
+		1 = MKL_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_PAL_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = PAL
+			tag = NSA
+			tag = AAC
+		}
+	}
+
+	sprite_infantry = {
+		1 = PAL_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_NUM_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = NUM
+			tag = ANS
+			tag = LOR
+			tag = KLE
+		}
+	}
+
+	sprite_infantry = {
+		1 = NUM_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_ULM_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = ULM
+			tag = BAD
+			tag = MEM
+			tag = ANH
+		}
+	}
+
+	sprite_infantry = {
+		1 = ULM_ORBIS_INFANTRY_2
+	}
+}

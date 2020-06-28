@@ -1,0 +1,138 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          CRUSADERS                                         #####
+#####                                                                                            #####
+######################################################################################################
+
+ORBIS_ACH_pack = {
+
+	country_trigger = {
+		tag = ACH
+	}
+
+	sprite_infantry = {
+		0 = ACH_ORBIS_INFANTRY_1
+		1 = ACH_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_ATH_pack = {
+
+	country_trigger = {
+		tag = ATH
+	}
+
+	sprite_infantry = {
+		0 = ATH_ORBIS_INFANTRY_1
+		1 = ATH_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_CEP_pack = {
+
+	country_trigger = {
+		tag = CEP
+	}
+
+	sprite_infantry = {
+		0 = CEP_ORBIS_INFANTRY_1
+		1 = CEP_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_CYP_pack = {
+
+	country_trigger = {
+		tag = CYP
+	}
+
+	sprite_infantry = {
+		0 = CYP_ORBIS_INFANTRY_1
+		1 = CYP_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_KNI_pack = {
+
+	country_trigger = {
+		tag = KNI
+	}
+
+	sprite_infantry = {
+		0 = KNI_ORBIS_INFANTRY_1
+		1 = KNI_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_KOJ_pack = {
+
+	country_trigger = {
+		tag = KOJ
+	}
+
+	sprite_infantry = {
+		0 = KOJ_ORBIS_INFANTRY_1
+		1 = KOJ_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_LIV_pack = {
+
+	country_trigger = {
+		tag = LIV
+	}
+
+	sprite_infantry = {
+		0 = LIV_ORBIS_INFANTRY_1
+		1 = LIV_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_MOE_pack = {
+
+	country_trigger = {
+		tag = MOE
+	}
+
+	sprite_infantry = {
+		0 = MOE_ORBIS_INFANTRY_1
+		1 = MOE_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_NAX_pack = {
+
+	country_trigger = {
+		tag = NAX
+	}
+
+	sprite_infantry = {
+		0 = NAX_ORBIS_INFANTRY_1
+		1 = NAX_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_RIG_pack = {
+
+	country_trigger = {
+		tag = RIG
+	}
+
+	sprite_infantry = {
+		0 = RIG_ORBIS_INFANTRY_1
+		1 = RIG_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_TEU_pack = {
+
+	country_trigger = {
+		tag = TEU
+	}
+
+	sprite_infantry = {
+		0 = TEU_ORBIS_INFANTRY_1
+		1 = TEU_ORBIS_INFANTRY_2
+	}
+}

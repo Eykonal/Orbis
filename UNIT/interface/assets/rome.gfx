@@ -1,0 +1,72 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                           Rome                                             #####
+#####                                                                                            #####
+######################################################################################################
+
+objectTypes = {
+	
+	################################
+	##          LEVEL 1           ##
+	################################
+	
+	pdxmesh = {
+		name = "ROM_ORBIS_MESH_INFANTRY_1"
+		file = "gfx/models/units/Rome/Tier1/ROM_01.mesh"
+		
+		animation = { id = "attack"			type = "polearm_twohanded_attack_animation" }
+		animation = { id = "idle"			type = "polearm_twohanded_idle_animation" }
+		animation = { id = "walk"			type = "hwarup_polearm_twohanded_armor_moving_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"		type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }
+		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_retreat"	type = "cavalry_rider_moving_animation" }
+		
+		scale = 0.5
+	}
+	
+	pdxmesh = {
+		name = "LAT_ORBIS_MESH_INFANTRY_1"
+		file = "gfx/models/units/Rome/Tier1/LAT_01.mesh"
+		
+		animation = { id = "attack"			type = "polearm_twohanded_attack_animation" }
+		animation = { id = "idle"			type = "polearm_twohanded_idle_animation" }
+		animation = { id = "walk"			type = "hwarup_polearm_twohanded_armor_moving_animation" }
+		animation = { id = "death"			type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"		type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"	type = "cavalry_rider_attack_animation" }
+		animation = { id = "horse_idle"		type = "cavalry_rider_idle_animation" }
+		animation = { id = "horse_walk"		type = "cavalry_rider_moving_animation" }
+		animation = { id = "horse_retreat"	type = "cavalry_rider_moving_animation" }
+		
+		scale = 0.5
+	}
+	
+	################################
+	##          LEVEL 2           ##
+	################################
+	
+	pdxmesh = {
+		name = "LAT_ORBIS_MESH_INFANTRY_2"
+		file = "gfx/models/units/Rome/Tier2/LAT_02.mesh"
+
+		animation = { id = "attack"				type = "rifleman_attack_animation" }
+		animation = { id = "idle"				type = "musketeer_02_idle_animation" }
+		animation = { id = "walk"				type = "musketeer_02_moving_animation" }
+		animation = { id = "death"				type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "marnoup_cavalry_rider_noarmor_attack_animation" }
+		animation = { id = "horse_idle"			type = "marnoup_cavalry_rider_noarmor_idle_animation" }
+		animation = { id = "horse_walk"			type = "marnoup_cavalry_rider_noarmor_moving_animation" }
+		animation = { id = "horse_death"		type = "marnoup_cavalry_rider_noarmor_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		scale = 0.5
+	}
+}

@@ -1,0 +1,79 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          NORDS                                             #####
+#####                                                                                            #####
+######################################################################################################
+
+ORBIS_DAN_pack = {
+
+	country_trigger = {
+		tag = DAN
+	}
+
+	sprite_infantry = {
+		0 = DAN_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_FIN_pack = {
+
+	country_trigger = {
+		tag = FIN
+	}
+
+	sprite_infantry = {
+		0 = FIN_ORBIS_INFANTRY_1
+		1 = FIN_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_ICE_pack = {
+
+	country_trigger = {
+		tag = ICE
+	}
+
+	sprite_infantry = {
+		0 = ICE_ORBIS_INFANTRY_1
+		1 = ICE_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_NOR_pack = {
+
+	country_trigger = {
+		tag = NOR
+	}
+
+	sprite_infantry = {
+		0 = NOR_ORBIS_INFANTRY_1
+		1 = NOR_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_SWE_pack = {
+
+	country_trigger = {
+		tag = SWE
+	}
+
+	sprite_infantry = {
+		0 = SWE_ORBIS_INFANTRY_1
+		1 = SWE_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_SCA_pack = {
+
+	country_trigger = {
+		tag = SCA
+	}
+
+	sprite_infantry = {
+		0 = SWE_ORBIS_INFANTRY_1
+		1 = SCA_ORBIS_INFANTRY_2
+		2 = SCA_ORBIS_INFANTRY_3
+		3 = SCA_ORBIS_INFANTRY_4
+	}
+}

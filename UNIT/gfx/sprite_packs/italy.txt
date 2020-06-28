@@ -1,0 +1,115 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          ITALY                                             #####
+#####                                                                                            #####
+######################################################################################################
+
+ORBIS_TUS_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = TUS
+			tag = LAN
+		}
+	}
+
+	sprite_infantry = {
+		0 = TUS_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_PAP_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = PAP
+			tag = URB
+			tag = PGA
+			tag = SPL
+		}
+	}
+
+	sprite_infantry = {
+		0 = PAP_ORBIS_INFANTRY_1
+		1 = PAP_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_MLO_pack = {
+
+	country_trigger = {
+		tag = MLO
+	}
+
+	sprite_infantry = {
+		0 = MLO_ORBIS_INFANTRY_1
+		1 = MLO_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_VEN_pack = {
+
+	country_trigger = {
+		tag = VEN
+	}
+
+	sprite_infantry = {
+		0 = VEN_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_ITA_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = SIE
+			tag = PIS
+			tag = LUC
+			tag = BLG
+			tag = PAR
+			tag = VRN
+			tag = PDV
+			tag = MAN
+		}
+	}
+
+	sprite_infantry = {
+		0 = ITA_ORBIS_INFANTRY_1
+		1 = ITA_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_GEN_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = GEN
+			tag = COR
+			tag = FER
+			tag = SAR
+			tag = MFA
+			tag = MOD
+		}
+	}
+
+	sprite_infantry = {
+		0 = GEN_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_FER_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = VEN
+			tag = FER
+			tag = MOD
+			tag = URB
+		}
+	}
+
+	sprite_infantry = {
+		1 = VEN_ORBIS_INFANTRY_2
+	}
+}

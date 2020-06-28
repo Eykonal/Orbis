@@ -1,0 +1,55 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          JAPAN                                             #####
+#####                                                                                            #####
+######################################################################################################
+
+objectTypes = {
+
+	################################
+	##          LEVEL 3           ##
+	################################
+	
+	pdxmesh = {
+		name = "JAP_ORBIS_MESH_INFANTRY_3"
+		file = "gfx/models/units/Japan/Tier3/JAP_03.mesh"
+
+		animation = { id = "attack"				type = "rifleman_attack_animation" }
+		animation = { id = "idle"				type = "rifleman_idle_animation" }
+		animation = { id = "walk"				type = "rifleman_moving_animation" }
+		animation = { id = "death"				type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "marnoup_cavalry_rider_noarmor_attack_animation" }
+		animation = { id = "horse_idle"			type = "marnoup_cavalry_rider_noarmor_idle_animation" }
+		animation = { id = "horse_walk"			type = "marnoup_cavalry_rider_noarmor_moving_animation" }
+		animation = { id = "horse_death"		type = "marnoup_cavalry_rider_noarmor_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		scale = 0.5
+	}
+	
+	################################
+	##          LEVEL 4           ##
+	################################
+	
+	pdxmesh = {
+		name = "JAP_ORBIS_MESH_INFANTRY_4"
+		file = "gfx/models/units/Japan/Tier4/JAP_04.mesh"
+
+		animation = { id = "attack"				type = "rifleman_attack_animation" }
+		animation = { id = "idle"				type = "rifleman_idle_animation" }
+		animation = { id = "walk"				type = "rifleman_moving_animation" }
+		animation = { id = "death"				type = "polearm_twohanded_death_animation" }
+		animation = { id = "retreat"			type = "polearm_twohanded_retreat_animation" }
+		
+		animation = { id = "horse_attack"		type = "marnoup_cavalry_rider_noarmor_attack_animation" }
+		animation = { id = "horse_idle"			type = "marnoup_cavalry_rider_noarmor_idle_animation" }
+		animation = { id = "horse_walk"			type = "marnoup_cavalry_rider_noarmor_moving_animation" }
+		animation = { id = "horse_death"		type = "marnoup_cavalry_rider_noarmor_death_animation" }
+		animation = { id = "horse_retreat"		type = "cavalry_rider_retreat_animation" }
+		
+		scale = 0.5
+	}
+}

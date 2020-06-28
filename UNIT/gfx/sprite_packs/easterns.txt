@@ -1,0 +1,98 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          EASTERN                                           #####
+#####                                                                                            #####
+######################################################################################################
+
+ORBIS_RUS_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = RUS
+			tag = MOS
+			tag = OKA
+		}
+	}
+
+	sprite_infantry = {
+		0 = RUS_ORBIS_INFANTRY_1
+		2 = RUS_ORBIS_INFANTRY_3
+		3 = RUS_ORBIS_INFANTRY_4
+	}
+}
+
+ORBIS_POL_pack = {
+
+	country_trigger = {
+		tag = POL
+	}
+
+	sprite_infantry = {
+		0 = POL_ORBIS_INFANTRY_1
+		1 = POL_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_PLC_pack = {
+
+	country_trigger = {
+		tag = PLC
+	}
+
+	sprite_infantry = {
+		0 = PLC_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_LIT_pack = {
+
+	country_trigger = {
+		tag = LIT
+	}
+
+	sprite_infantry = {
+		0 = LIT_ORBIS_INFANTRY_1
+		1 = LIT_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_MAZ_pack = {
+
+	country_trigger = {
+		tag = MAZ
+	}
+
+	sprite_infantry = {
+		0 = MAZ_ORBIS_INFANTRY_1
+		1 = MAZ_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_MOL_pack = {
+
+	country_trigger = {
+		tag = MOL
+	}
+
+	sprite_infantry = {
+		0 = MOL_ORBIS_INFANTRY_1
+		1 = MOL_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_SIL_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = SIL
+			tag = GLG
+			tag = OPL
+		}
+	}
+
+	sprite_infantry = {
+		0 = SIL_ORBIS_INFANTRY_1
+		1 = SIL_ORBIS_INFANTRY_2
+	}
+}

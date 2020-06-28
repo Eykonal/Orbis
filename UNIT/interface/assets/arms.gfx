@@ -1,0 +1,46 @@
+
+#####################################################################################################
+#####                                                                                           #####
+#####                                         WEAPONS                                           #####
+#####                                                                                           #####
+#####################################################################################################
+
+objectTypes = {
+
+	pdxmesh = {
+		name = "orbis_poleaxe_01_mesh"
+		file = "gfx/models/units/Arms/poleaxe_01.mesh"			
+		
+		scale = 0.5
+	}
+	pdxmesh = {
+		name = "orbis_poleaxe_02_mesh"
+		file = "gfx/models/units/Arms/poleaxe_02.mesh"			
+		
+		scale = 0.5
+	}
+	pdxmesh = {
+		name = "orbis_poleaxe_03_mesh"
+		file = "gfx/models/units/Arms/poleaxe_03.mesh"			
+		
+		scale = 0.5
+	}
+	pdxmesh = {
+		name = "orbis_halberd_01_mesh"
+		file = "gfx/models/units/Arms/halberd_01.mesh"			
+		
+		scale = 0.5
+	}
+	pdxmesh = {
+		name = "orbis_halberd_02_mesh"
+		file = "gfx/models/units/Arms/halberd_02.mesh"			
+		
+		scale = 0.5
+	}
+	pdxmesh = {
+		name = "orbis_spear_01_mesh"
+		file = "gfx/models/units/Arms/spear_01.mesh"			
+		
+		scale = 0.5
+	}
+}

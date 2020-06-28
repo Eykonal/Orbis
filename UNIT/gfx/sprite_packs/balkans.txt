@@ -1,0 +1,42 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          BALKANS                                           #####
+#####                                                                                            #####
+######################################################################################################
+
+ORBIS_TUR_pack = {
+
+	country_trigger = {
+		tag = TUR
+	}
+
+	sprite_infantry = {
+		0 = TUR_ORBIS_INFANTRY_1
+		1 = TUR_ORBIS_INFANTRY_2
+		2 = TUR_ORBIS_INFANTRY_3
+		3 = TUR_ORBIS_INFANTRY_4
+	}
+}
+
+ORBIS_BYZ_pack = {
+
+	country_trigger = {
+		tag = BYZ
+	}
+
+	sprite_infantry = {
+		0 = BYZ_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_RAG_pack = {
+
+	country_trigger = {
+		tag = RAG
+	}
+
+	sprite_infantry = {
+		0 = RAG_ORBIS_INFANTRY_1
+	}
+}

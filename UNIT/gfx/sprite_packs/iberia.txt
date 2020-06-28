@@ -1,0 +1,44 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          IBERIA                                            #####
+#####                                                                                            #####
+######################################################################################################
+
+ORBIS_ARA_pack = {
+
+	country_trigger = {
+		OR = {
+			tag = ARA
+			tag = CAT
+			tag = VAL
+			tag = MAJ
+		}
+	}
+
+	sprite_infantry = {
+		0 = ARA_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_CAS_pack = {
+
+	country_trigger = {
+		tag = CAS
+	}
+
+	sprite_infantry = {
+		0 = CAS_ORBIS_INFANTRY_1
+	}
+}
+
+ORBIS_SPA_pack = {
+
+	country_trigger = {
+		tag = SPA
+	}
+
+	sprite_infantry = {
+		0 = SPA_ORBIS_INFANTRY_1
+	}
+}
