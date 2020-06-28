@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_player_shield_bg"
+		texturefile = "gfx//interface//player_shield_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_buildmenu_button"
+		texturefile = "gfx//interface//buildmenu_button.dds"
+	}
+}
