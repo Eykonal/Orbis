@@ -1,0 +1,368 @@
+spriteTypes = {
+
+	#####################
+	#     M&T Clone     #
+	#####################
+	
+	maskedShieldType = {
+		name = "GFX_shield_HRE"
+		textureFile1 = "gfx/interface/shields/HRE_COA_big.dds"
+		textureFile2 = "gfx/interface/shields/HRE_COA_big_mask.tga"
+		effectFile = "gfx/FX/maskedflag.shader"
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_HRE_elector"
+		textureFile1 = "gfx/interface/shields/HRE_COA_elector.dds"
+		textureFile2 = "gfx/interface/shields/HRE_COA_elector_mask.tga"
+		effectFile = "gfx/FX/maskedflag.shader"
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_HRE_elector2"
+		textureFile1 = "gfx/interface/shields/HRE_COA_elector2.dds"
+		textureFile2 = "gfx/interface/shields/HRE_COA_elector_mask2.tga"
+		effectFile = "gfx/FX/maskedflag.shader"
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_HRE_elector3"
+		textureFile1 = "gfx/interface/shields/HRE_COA_elector3.dds"
+		textureFile2 = "gfx/interface/shields/HRE_COA_elector_mask2.tga"
+		effectFile = "gfx/FX/maskedflag.shader"
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_PAPAL"
+		textureFile1 = "gfx/interface/shields/PAPAL_COA_small.dds"
+		textureFile2 = "gfx/interface/shields/PAPAL_COA_big_mask.tga"
+		effectFile = "gfx/FX/maskedflag.shader"
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_crusade"
+		textureFile1 = "gfx/interface/shields/crusade_target_shield.dds"
+		textureFile2 = "gfx/interface/shields/shield_crusade_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_medium.dds"
+		noOfFrames = 119
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_PAPAL_full"
+		textureFile1 = "gfx/interface/shields/PAPAL_COA_big.dds"
+		textureFile2 = "gfx/interface/shields/PAPAL_COA_big_mask.tga"
+		effectFile = "gfx/FX/maskedflag.shader"
+	}
+
+	#####################
+	#       Basic       #
+	#####################
+	
+	maskedShieldType = {
+		name = "standarddialogshield"
+		textureFile1 = "gfx/interface/shields/shield_frame.dds"
+		textureFile2 = "gfx/interface/shields/shield_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_medium.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_small"
+		textureFile1 = "gfx/interface/shields/small_shield_overlay.dds"
+		textureFile2 = "gfx/interface/shields/small_shield_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_mini.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	maskedShieldType = {
+		name = "GFX_Navy_shield_small"
+		textureFile1 = "gfx/interface/small_navy_flag_overlay.dds"
+		textureFile2 = "gfx/interface/small_navy_flag_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_mini.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+
+	maskedShieldType = {
+		name = "GFX_Navy_shield_small_flip"
+		textureFile1 = "gfx/interface/small_navy_flag_overlay_flip.tga"
+		textureFile2 = "gfx/interface/small_navy_flag_mask_flip.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_mini.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_small_claim"
+		textureFile1 = "gfx/interface/shields/small_shield_overlay_claim.dds"
+		textureFile2 = "gfx/interface/shields/small_shield_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_mini.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_small_permanent_claim"
+		textureFile1 = "gfx/interface/shields/small_shield_overlay_permanent_claim.dds"
+		textureFile2 = "gfx/interface/shields/small_shield_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_mini.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}	
+	
+	maskedShieldType = {
+		name = "GFX_shield_small_territorial_core"
+		textureFile1 = "gfx/interface/shields/small_shield_overlay_territorial_cores.dds"
+		textureFile2 = "gfx/interface/shields/small_shield_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_mini.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}	
+	
+	maskedShieldType = {
+		name = "GFX_shield_fancy"
+		textureFile1 = "gfx/interface/shields/shield_fancy_overlay.dds"
+		textureFile2 = "gfx/interface/shields/shield_fancy_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		transparencecheck = yes
+		textureFile3 = "gfx/interface/client_state_symbols_large.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_large"
+		textureFile1 = "gfx/interface/shield_big_empty.dds"
+		textureFile2 = "gfx/interface/shields/shield_fancy_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		transparencecheck = yes
+		textureFile3 = "gfx/interface/client_state_symbols_large.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	spriteType = {
+		name = "GFX_shield_fancy_great_power_glow"
+		texturefile = "gfx/interface/shields/shield_fancy_great_power_overlay.dds"
+	}
+
+	maskedShieldType = {
+		name = "GFX_shield_medium"
+		textureFile1 = "gfx/interface/shields/shield_medium_overlay.dds"
+		textureFile2 = "gfx/interface/shields/shield_medium_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_small.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	maskedShieldType = {
+		name = "GFX_shield_thin"
+		textureFile1 = "gfx/interface/shields/shield_frame.dds"
+		textureFile2 = "gfx/interface/shields/shield_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_medium.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+
+	spriteType = {
+		name = "GFX_shield_thin_great_power_glow"
+		texturefile = "gfx/interface/shields/shield_great_power_frame.dds"
+	}
+
+	maskedShieldType = {
+		name = "GFX_mega_flag"
+		textureFile1 = "gfx/interface/mega_flag_overlay.dds"
+		textureFile2 = "gfx/interface/mega_flag_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		transparencecheck = yes
+		textureFile3 = "gfx/interface/client_state_symbols_large.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	maskedShieldType = {
+		name = "GFX_rev_target"
+		textureFile1 = "gfx/interface/rev_target_overlay.dds"
+		textureFile2 = "gfx/interface/rev_target_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		transparencecheck = yes
+		textureFile3 = "gfx/interface/client_state_symbols_small.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}	
+	
+	spriteType = {
+		name = "GFX_shield_thin_glow"
+		texturefile = "gfx/interface/shields/shield_thin_glow.dds"
+		
+		effectFile = "gfx/FX/buttonstate.lua"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "GFX_shield_plus"
+		texturefile = "gfx/interface/shield_frame_plus.dds"
+	}
+
+	#####################
+	#      General      #
+	#####################
+
+	#Topbar flag
+	maskedShieldType = {
+		name = "GFX_shield_topbar"
+		textureFile1 = "gfx/interface/shields/shield_topbar_overlay.dds"
+		textureFile2 = "gfx/interface/shields/shield_topbar_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		transparencecheck = yes
+		textureFile3 = "gfx/interface/client_state_symbols_large.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	spriteType = {
+		name = "GFX_shield_topbar_great_power_glow"
+		texturefile = "gfx/interface/shields/shield_topbar_great_power_overlay.dds"
+	}
+	spriteType = {
+		name = "GFX_shield_topbar2"
+		texturefile = "gfx/interface/shields/shield_topbar_def_overlay.dds"
+	}
+	
+	# Medium flag GP status
+	maskedShieldType = {
+		name = "GFX_shield_medium"
+		textureFile1 = "gfx/interface/shields/shield_medium_overlay.dds"
+		textureFile2 = "gfx/interface/shields/shield_medium_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_small.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	spriteType = {
+		name = "GFX_shield_medium_great_power_glow"
+		texturefile = "gfx/interface/shields/shield_medium_great_power_overlay.dds"
+	}
+	
+	# End of Combat Flags
+	maskedShieldType = {
+		name = "GFX_battle_flag"
+		textureFile1 = "gfx/interface/shields/battle_flag_overlay.dds"
+		textureFile2 = "gfx/interface/shields/battle_flag_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		transparencecheck = yes
+		textureFile3 = "gfx/interface/client_state_symbols_large.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	# Celestial Emperor
+	maskedShieldType = {
+		name = "GFX_shield_eoc"
+		textureFile1 = "gfx/interface/shields/shield_eoc_overlay.dds"
+		textureFile2 = "gfx/interface/shields/shield_eoc_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_medium.dds"		#large
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	#####################
+	# Tribal Federation #
+	#####################
+	
+	spriteType = {
+		name = "GFX_federation_leader_bg"
+		texturefile = "gfx/interface/shields/federation_leader_bg.dds"
+	}
+	
+	maskedShieldType = {
+		name = "GFX_federation_leader_frame"
+		textureFile1 = "gfx/interface/shields/federation_leader_frame.dds"
+		textureFile2 = "gfx/interface/shields/federation_leader_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/tutorial/tut_arrows_strip.dds"
+		noOfFrames = 8
+	}
+	
+	spriteType = {
+		name = "GFX_federation_leader_overlay"
+		texturefile = "gfx/interface/shields/federation_leader_overlay.dds"
+	}
+	
+	#####################
+	# Holy Roman Empire #
+	#####################
+	
+	# HRE Emperor
+	maskedShieldType = {
+		name = "GFX_shield_hre_emperor"
+		textureFile1 = "gfx/interface/shields/shield_hre_elector_overlay.dds"			#was emperor_overlay
+		textureFile2 = "gfx/interface/shields/shield_hre_elector_mask.tga"				#was emperor_mask
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_medium.dds"		#was large
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	spriteType = {
+		name = "GFX_hre_emperor_crown_overlay"
+		texturefile = "gfx/interface/shields/shield_hre_emperor_overlay.dds"
+	}
+	
+	# HRE Electors
+	maskedShieldType = {
+		name = "GFX_shield_hre_elector"
+		textureFile1 = "gfx/interface/shields/shield_hre_elector_overlay.dds"
+		textureFile2 = "gfx/interface/shields/shield_hre_elector_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_medium.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+	# HRE Members
+	maskedShieldType = {
+		name = "GFX_shield_hre_member"
+		textureFile1 = "gfx/interface/shields/hre_member_shield_overlay.dds"
+		textureFile2 = "gfx/interface/shields/hre_member_shield_mask.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+		textureFile3 = "gfx/interface/client_state_symbols_mini.dds"
+		noOfFrames = 120
+		overlay_frames_per_row = 32
+		overlay_rows = 4
+	}
+	
+}
