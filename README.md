@@ -1,2 +1,2 @@
 # Orbis
-Orbis GFX mods for Europa Universalis IV. Currently work in progress.
+Orbis GFX achievement-compatible mods for Europa Universalis IV. Currently work in progress.
