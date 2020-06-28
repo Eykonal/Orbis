@@ -1,0 +1,26 @@
+objectTypes = {
+	pdxmesh = {
+		name = "nammi_notre_dame_cathedral_mesh"
+		file = "gfx/models/Buildings/nammi_notre_dame_cathedral.mesh"			
+		
+		scale = 0
+		
+		cull_distance = 700.0f
+	}
+	pdxmesh = {
+		name = "nammi_cologne_cathedral_mesh"
+		file = "gfx/models/Buildings/nammi_cologne_cathedral.mesh"			
+		
+		scale = 0
+		
+		cull_distance = 700.0f
+	}
+	pdxmesh = {
+		name = "nammi_tower_of_london_mesh"
+		file = "gfx/models/Buildings/nammi_tower_of_london.mesh"			
+		
+		scale = 0
+		
+		cull_distance = 700.0f
+	}
+}
