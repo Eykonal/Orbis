@@ -1,0 +1,115 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          BRITAIN                                           #####
+#####                                                                                            #####
+######################################################################################################
+
+################################
+##          LEVEL 1           ##
+################################
+
+## ENG
+
+entity = {
+	name = "ENG_ORBIS_INFANTRY_1"
+	pdxmesh = "ENG_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "orbis_poleaxe_03"
+	}
+}
+
+## GBR
+
+entity = {
+	name = "GBR_ORBIS_INFANTRY_1"
+	pdxmesh = "GBR_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "orbis_poleaxe_03"
+	}
+}
+
+################################
+##          LEVEL 2           ##
+################################
+
+## GBR
+
+entity = {
+	name = "GBR_ORBIS_INFANTRY_2"
+	pdxmesh = "GBR_ORBIS_MESH_INFANTRY_2"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "catup_rifle_02"
+	}
+}
+
+################################
+##          LEVEL 3           ##
+################################
+
+## GBR
+
+entity = {
+	name = "GBR_ORBIS_INFANTRY_3"
+	pdxmesh = "GBR_ORBIS_MESH_INFANTRY_3"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "western_musket_2"
+	}
+}
+
+################################
+##          LEVEL 4           ##
+################################
+
+## GBR
+
+entity = {
+	name = "GBR_ORBIS_INFANTRY_4"
+	pdxmesh = "GBR_ORBIS_MESH_INFANTRY_4"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "western_musket_2"
+	}
+}
+
+################################
+##          CLONES            ##
+################################
+
+entity = { clone = "GBR_ORBIS_INFANTRY_2"		name = "ENG_ORBIS_INFANTRY_2"		version = 99 }
+entity = { clone = "GBR_ORBIS_INFANTRY_3"		name = "ENG_ORBIS_INFANTRY_3"		version = 99 }
+entity = { clone = "GBR_ORBIS_INFANTRY_4"		name = "ENG_ORBIS_INFANTRY_4"		version = 99 }

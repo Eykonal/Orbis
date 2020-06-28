@@ -1,0 +1,61 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          IBERIA                                            #####
+#####                                                                                            #####
+######################################################################################################
+
+################################
+##          LEVEL 1           ##
+################################
+
+## ARA
+
+entity = {				
+	name = "ARA_ORBIS_INFANTRY_1"
+	pdxmesh = "ARA_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "catmajup_spear_entity" 		
+	}
+}
+
+## CAS
+
+entity = {				
+	name = "CAS_ORBIS_INFANTRY_1"
+	pdxmesh = "CAS_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "catmajup_spear_entity" 		
+	}
+}
+
+## SPA
+
+entity = {				
+	name = "SPA_ORBIS_INFANTRY_1"
+	pdxmesh = "SPA_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "catmajup_spear_entity" 		
+	}
+}

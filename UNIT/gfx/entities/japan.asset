@@ -1,0 +1,48 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          JAPAN                                             #####
+#####                                                                                            #####
+######################################################################################################
+
+################################
+##          LEVEL 3           ##
+################################
+
+## JAP
+
+entity = {
+	name = "JAP_ORBIS_INFANTRY_3"
+	pdxmesh = "JAP_ORBIS_MESH_INFANTRY_3"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "western_musket_2"
+	}
+}
+
+################################
+##          LEVEL 4           ##
+################################
+
+## JAP
+
+entity = {
+	name = "JAP_ORBIS_INFANTRY_4"
+	pdxmesh = "JAP_ORBIS_MESH_INFANTRY_4"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "western_musket_2"
+	}
+}

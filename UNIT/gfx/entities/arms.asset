@@ -1,0 +1,38 @@
+
+#####################################################################################################
+#####                                                                                           #####
+#####                                         WEAPONS                                           #####
+#####                                                                                           #####
+#####################################################################################################
+	
+## Halberds
+
+entity = {
+	name = "orbis_poleaxe_01"
+	pdxmesh = "orbis_poleaxe_01_mesh"
+}
+
+entity = {
+	name = "orbis_poleaxe_02"
+	pdxmesh = "orbis_poleaxe_02_mesh"
+}
+
+entity = {
+	name = "orbis_poleaxe_03"
+	pdxmesh = "orbis_poleaxe_03_mesh"
+}
+
+entity = {
+	name = "orbis_halberd_01"
+	pdxmesh = "orbis_halberd_01_mesh"
+}
+
+entity = {
+	name = "orbis_halberd_02"
+	pdxmesh = "orbis_halberd_02_mesh"
+}
+
+entity = {
+	name = "orbis_spear_01"
+	pdxmesh = "orbis_spear_01_mesh"
+}

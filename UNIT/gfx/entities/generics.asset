@@ -1,0 +1,40 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                          GENERICS                                          #####
+#####                                                                                            #####
+######################################################################################################
+
+################################
+##          LEVEL 1           ##
+################################
+
+entity = {
+	name = "westerngfx_INFANTRY_1"
+	pdxmesh = "GENERIC_WESTERN_ORBIS_MESH_INFANTRY_1"
+	version = 99
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+
+	attach = { 
+		Right_hand_node = "orbis_poleaxe_03"
+	}
+}
+
+entity = {
+	name = "easterngfx_INFANTRY_1"
+	pdxmesh = "GENERIC_EASTERN_ORBIS_MESH_INFANTRY_1"
+	version = 99
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+
+	attach = { 
+		Right_hand_node = "rpup_spear"
+	}
+}

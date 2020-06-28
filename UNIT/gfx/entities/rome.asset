@@ -1,0 +1,65 @@
+
+######################################################################################################
+#####                                                                                            #####
+#####                                           Rome                                             #####
+#####                                                                                            #####
+######################################################################################################
+
+################################
+##          LEVEL 1           ##
+################################
+
+## ROM
+
+entity = {
+	name = "ROM_ORBIS_INFANTRY_1"
+	pdxmesh = "ROM_ORBIS_MESH_INFANTRY_1"
+	version = 99
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+
+	attach = { 
+		Right_hand_node = "orbis_poleaxe_01"
+	}
+}
+
+## LAT
+
+entity = {
+	name = "LAT_ORBIS_INFANTRY_1"
+	pdxmesh = "LAT_ORBIS_MESH_INFANTRY_1"
+	version = 99
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+
+	attach = { 
+		Right_hand_node = "orbis_poleaxe_01"
+	}
+}
+
+################################
+##          LEVEL 2           ##
+################################
+
+## LAT
+
+entity = {
+	name = "LAT_ORBIS_INFANTRY_2"
+	pdxmesh = "LAT_ORBIS_MESH_INFANTRY_2"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+
+	attach = { 
+		Left_hand_node = "western_musket" 
+	}
+}

@@ -1,0 +1,303 @@
+	
+######################################################################################################
+#####                                                                                            #####
+#####                                          GERMANY                                           #####
+#####                                                                                            #####
+######################################################################################################
+
+################################
+##          LEVEL 1           ##
+################################
+
+## PRU
+
+entity = {
+	name = "PRU_ORBIS_INFANTRY_1"
+	pdxmesh = "PRU_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "theup_spear_entity"
+	}
+}
+
+## HAB
+
+entity = {
+	name = "HAB_ORBIS_INFANTRY_1"
+	pdxmesh = "HAB_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "evmajup_spear_entity"
+	}
+}
+
+## LOR
+
+entity = {
+	name = "LOR_ORBIS_INFANTRY_1"
+	pdxmesh = "LOR_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "hwarup_FRA_01_spear_entity"
+	}
+}
+
+## AUG
+
+entity = {
+	name = "AUG_ORBIS_INFANTRY_1"
+	pdxmesh = "AUG_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "evmajup_spear_entity"
+	}
+}
+
+## WUR
+
+entity = {
+	name = "WUR_ORBIS_INFANTRY_1"
+	pdxmesh = "WUR_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "evmajup_spear_entity"
+	}
+}
+
+## WBG
+
+entity = {
+	name = "WBG_ORBIS_INFANTRY_1"
+	pdxmesh = "WBG_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "evmajup_spear_entity"
+	}
+}
+
+## FRN
+
+entity = {
+	name = "FRN_ORBIS_INFANTRY_1"
+	pdxmesh = "FRN_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "rigofman_spear"
+	}
+}
+
+## POM
+
+entity = {
+	name = "POM_ORBIS_INFANTRY_1"
+	pdxmesh = "POM_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "rigofman_spear"
+	}
+}
+
+## HAM
+
+entity = {
+	name = "HAM_ORBIS_INFANTRY_1"
+	pdxmesh = "HAM_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "fcup_spear_entity" 		
+	}
+}
+
+################################
+##          LEVEL 2           ##
+################################
+
+## PRU
+
+entity = {
+	name = "PRU_ORBIS_INFANTRY_2"
+	pdxmesh = "PRU_ORBIS_MESH_INFANTRY_2"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "western_musket"
+	}
+}
+
+## BRU
+
+entity = {
+	name = "BRU_ORBIS_INFANTRY_2"
+	pdxmesh = "BRU_ORBIS_MESH_INFANTRY_2"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "western_musket"
+	}
+}
+
+## LUN
+
+entity = {
+	name = "LUN_ORBIS_INFANTRY_2"
+	pdxmesh = "LUN_ORBIS_MESH_INFANTRY_2"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "western_musket"
+	}
+}
+
+## MKL
+
+entity = {
+	name = "MKL_ORBIS_INFANTRY_2"
+	pdxmesh = "MKL_ORBIS_MESH_INFANTRY_2"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "western_musket"
+	}
+}
+
+## PAL
+
+entity = {
+	name = "PAL_ORBIS_INFANTRY_2"
+	pdxmesh = "PAL_ORBIS_MESH_INFANTRY_2"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "western_musket"
+	}
+}
+
+## HAM
+
+entity = {
+	name = "HAM_ORBIS_INFANTRY_2"
+	pdxmesh = "HAM_ORBIS_MESH_INFANTRY_2"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "western_musket"
+	}
+}
+
+## NUM
+
+entity = {
+	name = "NUM_ORBIS_INFANTRY_2"
+	pdxmesh = "NUM_ORBIS_MESH_INFANTRY_2"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "catup_rifle_01"
+	}
+}
+
+## ULM
+
+entity = {
+	name = "ULM_ORBIS_INFANTRY_2"
+	pdxmesh = "ULM_ORBIS_MESH_INFANTRY_2"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Left_hand_node = "catup_rifle_01"
+	}
+}
