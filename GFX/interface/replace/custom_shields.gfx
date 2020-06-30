@@ -84,28 +84,6 @@ spriteTypes = {
 	}
 	
 	maskedShieldType = {
-		name = "GFX_Navy_shield_small"
-		textureFile1 = "gfx/interface/small_navy_flag_overlay.dds"
-		textureFile2 = "gfx/interface/small_navy_flag_mask.tga"
-		effectFile = "gfx/FX/maskedflag.lua"
-		textureFile3 = "gfx/interface/client_state_symbols_mini.dds"
-		noOfFrames = 120
-		overlay_frames_per_row = 32
-		overlay_rows = 4
-	}
-
-	maskedShieldType = {
-		name = "GFX_Navy_shield_small_flip"
-		textureFile1 = "gfx/interface/small_navy_flag_overlay_flip.tga"
-		textureFile2 = "gfx/interface/small_navy_flag_mask_flip.tga"
-		effectFile = "gfx/FX/maskedflag.lua"
-		textureFile3 = "gfx/interface/client_state_symbols_mini.dds"
-		noOfFrames = 120
-		overlay_frames_per_row = 32
-		overlay_rows = 4
-	}
-	
-	maskedShieldType = {
 		name = "GFX_shield_small_claim"
 		textureFile1 = "gfx/interface/shields/small_shield_overlay_claim.dds"
 		textureFile2 = "gfx/interface/shields/small_shield_mask.tga"
@@ -192,30 +170,6 @@ spriteTypes = {
 		name = "GFX_shield_thin_great_power_glow"
 		texturefile = "gfx/interface/shields/shield_great_power_frame.dds"
 	}
-
-	maskedShieldType = {
-		name = "GFX_mega_flag"
-		textureFile1 = "gfx/interface/mega_flag_overlay.dds"
-		textureFile2 = "gfx/interface/mega_flag_mask.tga"
-		effectFile = "gfx/FX/maskedflag.lua"
-		transparencecheck = yes
-		textureFile3 = "gfx/interface/client_state_symbols_large.dds"
-		noOfFrames = 120
-		overlay_frames_per_row = 32
-		overlay_rows = 4
-	}
-	
-	maskedShieldType = {
-		name = "GFX_rev_target"
-		textureFile1 = "gfx/interface/rev_target_overlay.dds"
-		textureFile2 = "gfx/interface/rev_target_mask.tga"
-		effectFile = "gfx/FX/maskedflag.lua"
-		transparencecheck = yes
-		textureFile3 = "gfx/interface/client_state_symbols_small.dds"
-		noOfFrames = 120
-		overlay_frames_per_row = 32
-		overlay_rows = 4
-	}	
 	
 	spriteType = {
 		name = "GFX_shield_thin_glow"
@@ -226,8 +180,9 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_shield_plus"
-		texturefile = "gfx/interface/shield_frame_plus.dds"
+		name = "GFX_small_shield_overlay_great_power_transparent"
+		texturefile = "gfx/interface/shields/small_shield_overlay_great_power_transparent.dds"
+		alwaystransparent = yes
 	}
 
 	#####################
