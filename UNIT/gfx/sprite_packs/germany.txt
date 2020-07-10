@@ -42,8 +42,6 @@ ORBIS_AUG_pack = {
 			tag = REG
 			tag = KNZ
 			tag = PSS
-			tag = TYR
-			tag = TNT
 		}
 	}
 
@@ -95,17 +93,17 @@ ORBIS_FRN_pack = {
 	country_trigger = {
 		OR = {
 			tag = FRN
-			tag = AAC
-			tag = NSA
 			tag = MAG
 			tag = ANH
 			tag = BYT
 			tag = GOS
+			tag = TNT
+			tag = TIR
 		}
 	}
 
 	sprite_infantry = {
-		0 = WUR_ORBIS_INFANTRY_1
+		0 = FRN_ORBIS_INFANTRY_1
 	}
 }
 
@@ -221,6 +219,7 @@ ORBIS_PAL_pack = {
 	}
 
 	sprite_infantry = {
+		0 = PAL_ORBIS_INFANTRY_1
 		1 = PAL_ORBIS_INFANTRY_2
 	}
 }
@@ -233,6 +232,8 @@ ORBIS_NUM_pack = {
 			tag = ANS
 			tag = LOR
 			tag = KLE
+			tag = TNT
+			tag = TIR
 		}
 	}
 
@@ -254,5 +255,20 @@ ORBIS_ULM_pack = {
 
 	sprite_infantry = {
 		1 = ULM_ORBIS_INFANTRY_2
+	}
+}
+
+ORBIS_NGF_pack = {
+
+	country_trigger = {
+		tag = D02
+		ai = NO
+	}
+
+	sprite_infantry = {
+		0 = PAL_ORBIS_INFANTRY_1
+		1 = PAL_ORBIS_INFANTRY_2
+		2 = NUM_INFANTRY_3
+		3 = NUM_INFANTRY_4
 	}
 }
