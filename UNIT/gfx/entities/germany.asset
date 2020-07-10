@@ -162,6 +162,23 @@ entity = {
 	}
 }
 
+## PAL
+
+entity = {
+	name = "PAL_ORBIS_INFANTRY_1"
+	pdxmesh = "PAL_ORBIS_MESH_INFANTRY_1"
+	version = 99
+	
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+	state = { name = "retreat"		animation = "retreat" }
+	
+	attach = {
+		Right_hand_node = "rigofman_spear"
+	}
+}
+
 ################################
 ##          LEVEL 2           ##
 ################################
